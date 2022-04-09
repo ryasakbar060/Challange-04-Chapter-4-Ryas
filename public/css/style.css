@@ -929,7 +929,6 @@ body {
   border: 5px solid black;
   width: 80%;
 }
-
 .container #cm-search {
   /* border: 1px solid black; */
   width: 90%;
@@ -937,7 +936,6 @@ body {
   z-index: 999;
   margin-top: -40px;
 }
-
 .form-search {
   font-style: normal;
   font-weight: 300;
@@ -947,7 +945,6 @@ body {
   justify-content: center;
   gap: 10px;
 }
-
 .form-select,
 .form-control {
   font-style: normal;
@@ -955,41 +952,34 @@ body {
   font-size: 14px;
   line-height: 18px;
 }
-
 input[type='date']::before {
   content: attr(placeholder);
   position: absolute;
   color: #8a8a8a;
 }
-
 input[type='date'] {
   color: #ffffff;
 }
-
 input[type='date']:focus,
 input[type='date']:valid {
   color: #666666;
 }
-
 input[type='date']:focus::before,
 input[type='date']:valid::before {
   content: '';
 }
-
 .tombol-search {
   margin-top: 34px;
 }
 .tombol-search button {
   background-color: #5cb85f;
 }
-
 .cm-content {
   width: 280px !important;
   height: 580px;
   border: 1px solid #9999;
   margin: 20px auto 20px auto;
 }
-
 .cm-content .cars {
   width: 255px;
   height: 200px;
